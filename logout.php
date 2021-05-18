@@ -9,7 +9,7 @@
 <?php
 	if (!isset($_SESSION['user'])) {
 		$url = "http://" . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
-		header("Location:" . $url . "/home.php" );
+		header("Location:" . $url . "/index.php" );
 		exit();
 	}
 ?>

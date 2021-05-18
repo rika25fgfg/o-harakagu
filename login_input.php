@@ -42,7 +42,7 @@
 
 <div class="form-wrapper2">	
   <h2>すでにログイン済です。</h2>
-  <form action="home.php" method="post">
+  <form action="index.php" method="post">
 		<div class="button-panel">
 				<input type="submit" class="button" title="Top" value="トップページへ"></input>
 		</div>

@@ -1,5 +1,5 @@
 <header>
-    <a href="home.php">
+    <a href="index.php">
        <h1 id="header_title">大原家具</h1>
     </a>
     <nav id="header_list">

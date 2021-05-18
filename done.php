@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>大原家具</title>
 </head>
 <body>
@@ -38,7 +38,7 @@
 
     <div class="form-wrapper">
     <h2>購入手続きが完了しました</h2>
-    <form action="home.php" method="post">
+    <form action="index.php" method="post">
         <div class="button-panel">
             <input type="submit" class="button" title="Top" value="トップページへ"></input>
         </div>
@@ -51,7 +51,7 @@
 
     <div class="form-wrapper">
     <h2>購入手続き中にエラーが発生しました。申し訳ございません。</h2>
-    <form action="home.php" method="post">
+    <form action="index.php" method="post">
         <div class="button-panel">
             <input type="submit" class="button" title="Top" value="トップページへ"></input>
         </div>
