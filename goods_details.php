@@ -115,6 +115,118 @@
 ?>
 
 <?php require 'footer.php'; ?> <!-- footer挿入 -->
+
+<style>
+  #details_title {
+  font-size: 30px;
+  padding: 30px 30px 30px 7%;
+}
+
+#details_left {
+  width: 35%;
+  float: left;
+  padding: 0px 10px 10px 7%;
+}
+
+#details_kanren_goods {
+  width: 160px;
+  float: left;
+  overflow: hidden;
+  margin: 5px 20px 0px 0px;
+}
+
+#details_center {
+  width: 35%;
+  float: left;
+  overflow: hidden;
+  padding: 0px 10px 10px 10px;
+}
+
+#details_kakaku {
+  font-size: 30px;
+}
+
+#details_table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#details_table tr{
+  border-bottom: solid 2px white;
+}
+
+#details_table tr:last-child{
+  border-bottom: none;
+}
+
+#details_table th{
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#details_table th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #52c2d0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+#details_table td{
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+#details_right {
+  width: 22%;
+  float: left;
+  overflow: hidden;
+  margin: 0px 7% 10px 10px;
+  padding: 40px 30px 40px 30px;
+  background-color: whitesmoke;
+}
+
+#details_form input[type="number"] {
+  width: 100px; 
+  margin: 0px 20% 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#details_form input[type="submit"] {
+  display       : inline-block;
+  width: 100%; 
+  border-radius : 2%;          /* 角丸       */
+  font-size     : 15pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 45px;   /* 余白       */
+  background    : #FF6666;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 8px 8px 7px #666666;  /* 影の設定 */
+  border        : 2px solid #FF6666;    /* 枠の指定 */
+}
+
+#details_form input[type="submit"]:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #FF6666;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+</style>
     
 </body>
 </html>

@@ -121,5 +121,50 @@
 
 <?php require 'footer.php'; ?> <!-- footer挿入 -->
     
+<style>
+    #home_list {
+  padding: 3%;
+}
+
+#home_goodslist {
+  padding: 4px; 
+  margin: 15% 40% 0px 40%;
+  margin-bottom: 3px; 
+  border: 1px solid #333333;
+  text-align: center;
+  color: #222222;
+  font-size: 22px;
+}
+
+#home_dummy {
+  width: 100%;
+  float: left;
+  padding: 15px 10% 15px 13%;
+}
+
+#home_recommend {
+  float: left;
+  width: 100%;
+  padding: 5% 5% 5% 8%;
+  white-space: nowrap;
+}
+
+#home_recommend p {
+  font-size: small;
+}
+
+#home_goods {
+  width: 180px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#home_price {
+  white-space: nowrap;
+  font-size: 20px;
+}
+</style>
 </body>
 </html>

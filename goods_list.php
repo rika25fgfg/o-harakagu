@@ -216,6 +216,46 @@
 
 
 <?php require 'footer.php'; ?> <!-- footer挿入 -->
+
+<style>
+    #list_goods {
+  width: 190px;
+  height: 280px;
+  float: left;
+  overflow: hidden;
+  margin: 5px 20px 5px 0px; 
+  text-align: center;
+}
+
+#list_bed {
+  width: 100%;
+  height: 700px;
+  padding: 10px 10% 10px 11%;
+}
+
+#list_shelf {
+  width: 100%;
+  height: 700px;
+  padding: 10px 10% 10px 11%;
+
+}
+
+#list_sofa {
+  width: 100%;
+  height: 700px;
+  padding: 10px 10% 10px 11%;
+}
+
+#list_table {
+  width: 100%;
+  height: 700px;
+  padding: 10px 10% 10px 11%;
+}
+
+#list_line {
+  padding: 10px 10% 10px 11%;
+}
+</style>
     
 </body>
 </html>

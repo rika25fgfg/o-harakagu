@@ -53,6 +53,41 @@ footer {
     bottom: 0; /*下に固定*/
 }
 
+.kakomi-box3 {
+  margin: 2em auto;
+  padding: 1em;
+  width: 90%;
+  border: 1px solid #ccc; /* 枠線 */
+  background-color: #fff; /* 背景色 */
+  box-shadow: 1px 1px 2px #ccc;
+}
+
+.mypage2 {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  border-bottom: solid 0.1px gray;
+  padding-bottom: 10px;
+
+}
+
+.mypage {
+  padding-top: 120px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.mypage3 {
+  padding-top: 5px;
+  margin: 0 auto;
+  max-width: 500px;
+  color: #0066FF;
+}
+
+.border {
+  border-style: dotted;
+}
+
 </style>
     
 </body>

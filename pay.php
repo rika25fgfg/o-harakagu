@@ -73,6 +73,151 @@
 
 
 <?php require 'footer.php'; ?> <!-- footer挿入 -->
+
+<style>
+    #cart {
+  margin: 30px 7% 30px 7%;
+}
+
+#cart_title {
+  font-size: 30px;
+  margin: 30px 7% 30px 7%;
+}
+
+#cart_details_2 {
+  width: 97%;
+  height: 230px;
+  float: left;
+  border-bottom: solid 1px black;
+  margin-bottom: 15px;
+}
+
+#cart_details {
+  width: 70%;
+  float: left;
+}
+
+#cart_left {
+  width: 200px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+#cart_center {
+  width: 300px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
+  line-height: 35px;
+}
+
+#cart_right {
+  width: 220px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+  margin: 0px 10px 10px 10px;
+  line-height: 35px
+}
+
+#cart_under {
+  width: 550px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+  margin: 0px 20px 10px 10px;
+}
+
+#cart_line {
+  float: left;
+}
+
+#cart_pay {
+  width: 30%;
+  float: right;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+  padding: 40px 30px 40px 30px;
+  background-color: whitesmoke;
+  line-height: 35px
+}
+
+#cart_form input[type="submit"] {
+  display       : inline-block;
+  width: 100%; 
+  border-radius : 2%;          /* 角丸       */
+  font-size     : 15pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 45px;   /* 余白       */
+  background    : #FF6666;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 8px 8px 7px #666666;  /* 影の設定 */
+  border        : 2px solid #FF6666;    /* 枠の指定 */
+}
+
+#cart_form input[type="submit"]:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #FF6666;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+#cart_form_2 input[type="submit"] {
+  display       : inline-block;
+  width: 100%; 
+  border-radius : 2%;          /* 角丸       */
+  font-size     : 15pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 45px;   /* 余白       */
+  background    : #3CB371;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 8px 8px 7px #666666;  /* 影の設定 */
+  border        : 2px solid #3CB371;    /* 枠の指定 */
+}
+
+#cart_form_2 input[type="submit"]:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #3CB371;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.button-panel {
+  margin: 0.2em 0 0;
+  width: 100%;
+}
+
+.button-panel .cart_button {
+  background-color:white;
+  border: none;
+  color:black;
+  cursor: pointer;
+  height: 20px;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 20%;
+  /* margin: 0 0 0 10px; */
+}
+
+#cart_price {
+  font-size: 24px;
+}
+
+#cart_total {
+  color: #ff6347;
+}
+
+</style>
     
 </body>
 </html>

@@ -110,6 +110,28 @@
   background: #ee3e52;
 }
 
+#history_title {
+  margin: 30px 10%;
+}
+
+#history {
+  margin: 20px 10% 20px 10%;
+  height: 220px;
+  border-bottom: solid 1px black;
+}
+
+#history_image {
+  float: left;
+  overflow: hidden;
+  padding-right: 40px;
+}
+
+#history_details {
+  margin-left: 40px;
+  line-height: 40px;
+}
+
+
 </style>
     
 </body>
